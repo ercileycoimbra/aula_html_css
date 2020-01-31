@@ -3,36 +3,36 @@
 <html>
    <head>
       <title>Curso de HTML e CSS</title>
+      <link href="css/estilos.css" rel="stylesheet">
    </head>
 
    <body>
       <nav>
          <a href="#">Lorem Ipsum</a>
-
          <ul>
-            <li><a href="#">SOBRE</a></li>
-            <li><a href="#">SERVIÇOS</a></li>
-            <li><a href="#">PORTFÓLIO</a></li>
-            <li><a href="#">CONTATO</a></li>
+            <li><a href="#sobre">SOBRE</a></li>
+            <li><a href="#sevicos">SERVIÇOS</a></li>
+            <li><a href="#portfolio">PORTFÓLIO</a></li>
+            <li><a href="#contato">CONTATO</a></li>
          </ul>
       </nav>
 
       <header>
          <h1>LOREM IPSUM</h1>
          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quidem aperiam saepe expedita atque neque ut maxime, dolorum quis rem ipsum, est molestias iure voluptates eum exercitationem odit sapiente alias?</p>
-         <a href = "#">VER MAIS</a>
+         <a href = "#sobre">VER MAIS</a>
       </header>
 
-      <section>
+      <section id="sobre">
          <h2>SOBRE</h2>
          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quidem aperiam saepe expedita atque neque ut maxime, dolorum quis rem ipsum, est molestias iure voluptates eum exercitationem odit sapiente alias?</p>
-         <a href = "#">ENTRE EM CONTATO</a>
+         <a href = "#contato">ENTRE EM CONTATO</a>
       </section>
 
-      <section>
+      <section id="servicos">
          <h2>SERVIÇOS</h2>
          <div>
-            <img src = "img/eng.png" alt="configurações">
+            <img src = "img/configs.png" alt="configurações">
             <h3>Fácil Integração</h3>
             <p>Integra facilmente seu site a qualquer gerenciador de conteúdo</p>
          </div>
@@ -42,15 +42,55 @@
             <p>Não deixe seus clientes na mão. tenha seu site 24hrs no ar.</p>
          </div>
          <div>
-            <img src = "img/site.png" alt="hospedagem">
-            <h3>Melhores práticas</h3>
+            <img src = "img/site.png" alt="codificação">
+            <h3 class="jukinha">Melhores práticas</h3>
             <p>Código legível, desenvolvido com as melhores práticas.</p>
          </div>
          <div>
-            <img src = "img/coracao.png" alt="hospedagem">
+            <img src = "img/coracao.png" alt="feito com amor">
             <h3>Feito com amor</h3>
             <p>É melhor fazer seus sites com amor hoje em dia.</p>
          </div>
+      </section>
+
+      <section id="portfolio">
+         <h2>PORTFÓLIO</h2>
+         <div>
+            <img src = "img/portfolio-1.jpg" alt="cogumelos">
+         </div>
+         <div>
+            <img src = "img/portfolio-2.jpg" alt="cogumelos">
+         </div>
+         <div>
+            <img src = "img/portfolio-3.jpg" alt="cogumelos">
+         </div>
+         <div>
+            <img src = "img/portfolio-4.jpg" alt="cogumelos">
+         </div>
+         <div>
+            <img src = "img/portfolio-5.jpg" alt="cogumelos">
+         </div>
+         <div>
+            <img src = "img/portfolio-6.jpg" alt="cogumelos">
+         </div>
+      </section>
+
+      <section id="contato">
+         <h2>CONTATO</h2>
+         <p>Ligue já</p>
+         <div>
+            <img src="img/fone.png">
+            <p><a href="tel:xx55555555">(xx) 5555 5555</a></p>
+         </div>
+
+         <div>
+            <img src="img/contato.png">
+            <p><a href="mailto:email@contato.com">email@contato.com</a></p>
+         </div>
+      </section>
+
+      <section>
+         <p>Desenvolvido por Erciley Coimbra</p>
       </section>
    </body>
 </html>
